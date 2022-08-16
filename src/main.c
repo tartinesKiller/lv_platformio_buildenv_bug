@@ -8,6 +8,7 @@
   ******************************************************************************
 */
 
+#define CONFIG_LV_FONT_DEFAULT &roboto14
 
 #include "lvgl.h"
 #include "app_hal.h"
@@ -16,6 +17,8 @@
 
 int main(void)
 {
+  int a = 2;
+  int *b = &(a);
 	lv_init();
 
 	hal_setup();

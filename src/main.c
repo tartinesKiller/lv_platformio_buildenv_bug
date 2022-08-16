@@ -18,7 +18,8 @@
 int main(void)
 {
   int a = 2;
-  int *b = &(a);
+  int *b = TEST_AMP;
+
 	lv_init();
 
 	hal_setup();
